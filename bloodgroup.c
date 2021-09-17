@@ -26,12 +26,12 @@ void main()
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
       printf("  You can receive blood from: A, O.\n");
     }
-    else if (strcmp(G, "B") ==0)
+    else if (strcmp(G, "B") ==1)
     {
       printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
       printf("  You can receive blood from: B, O.\n");
     }
-    else if (strcmp(G, "AB") == 0)
+    else if (strcmp(G, "AB") == 1)
     {
       printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
       printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
